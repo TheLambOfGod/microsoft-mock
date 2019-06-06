@@ -17,21 +17,28 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 h1 {
-    margin-top: 1.8em;
+    margin-top: 40px;
     margin-bottom: 0;
-    margin-left: 1em;
+    margin-left: 30px;
 }
 
 h3 {
-    margin-left: 1.3em;
-    margin-top: 1.5em;
-    margin-bottom: 2.2em;
+    margin-top: 30px;
+}
+
+#mscorp { 
+    margin-top: 8px;
+    margin-left: 30px;
 }
 
 #firstdiv {
     border-bottom: 1px solid rgb(193, 193, 193);
-    height: 90px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 
@@ -44,11 +51,16 @@ h3 {
     align-items: center;
 }
 
-.mscorp {
-    margin-top: .6em;
-    margin-bottom: 0;
-    margin-left: 1.6em;
+#thirddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85%;
+}
 
+.mscorp {
+    margin-left: 1em;
+    
 }
 
 .buybutton {
